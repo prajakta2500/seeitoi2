@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="SeeiTOi_TestSuite(failed)">
+    <classes>
+      <class name="seeitoi.LoginPage_TestScenario">
+        <methods>
+          <include name="testLoginValid"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+          <include name="verifyOKAndLogout"/>
+        </methods>
+      </class> <!-- seeitoi.LoginPage_TestScenario -->
+    </classes>
+  </test> <!-- SeeiTOi_TestSuite(failed) -->
+</suite> <!-- Failed suite [Suite] -->
