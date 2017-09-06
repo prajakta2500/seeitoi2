@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="19101" started-at="2017-09-06T08:12:39Z" finished-at="2017-09-06T08:12:58Z">
+  <suite name="Suite" duration-ms="14617" started-at="2017-09-06T11:52:09Z" finished-at="2017-09-06T11:52:23Z">
     <groups>
     </groups>
-    <test name="SeeiTOi_TestSuite" duration-ms="19101" started-at="2017-09-06T08:12:39Z" finished-at="2017-09-06T08:12:58Z">
+    <test name="SeeiTOi_TestSuite" duration-ms="14617" started-at="2017-09-06T11:52:09Z" finished-at="2017-09-06T11:52:23Z">
       <class name="seeitoi.LoginPage_TestScenario">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:seeitoi.LoginPage_TestScenario@3e6fa38a]" name="setUp" is-config="true" duration-ms="9887" started-at="2017-09-06T13:42:29Z" finished-at="2017-09-06T13:42:39Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:seeitoi.LoginPage_TestScenario@4cc0edeb]" name="setUp" is-config="true" duration-ms="5711" started-at="2017-09-06T17:22:03Z" finished-at="2017-09-06T17:22:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:seeitoi.LoginPage_TestScenario@3e6fa38a]" name="setup" is-config="true" duration-ms="27" started-at="2017-09-06T13:42:39Z" finished-at="2017-09-06T13:42:39Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:seeitoi.LoginPage_TestScenario@4cc0edeb]" name="setup" is-config="true" duration-ms="27" started-at="2017-09-06T17:22:09Z" finished-at="2017-09-06T17:22:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testLoginValid()[pri:0, instance:seeitoi.LoginPage_TestScenario@3e6fa38a]" name="testLoginValid" duration-ms="19053" started-at="2017-09-06T13:42:39Z" finished-at="2017-09-06T13:42:58Z">
+        <test-method status="PASS" signature="testLoginValid()[pri:0, instance:seeitoi.LoginPage_TestScenario@4cc0edeb]" name="testLoginValid" duration-ms="14569" started-at="2017-09-06T17:22:09Z" finished-at="2017-09-06T17:22:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginValid -->
-        <test-method status="PASS" signature="verifyOKAndLogout()[pri:0, instance:seeitoi.LoginPage_TestScenario@3e6fa38a]" name="verifyOKAndLogout" is-config="true" duration-ms="73" started-at="2017-09-06T13:42:58Z" finished-at="2017-09-06T13:42:58Z">
+        <test-method status="PASS" signature="verifyOKAndLogout()[pri:0, instance:seeitoi.LoginPage_TestScenario@4cc0edeb]" name="verifyOKAndLogout" is-config="true" duration-ms="77" started-at="2017-09-06T17:22:23Z" finished-at="2017-09-06T17:22:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyOKAndLogout -->
