@@ -13,11 +13,17 @@
 
   <dependencies>
   
-    <dependency>
+    <!-- <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
       <version>2.53.0</version>
-    </dependency> 
+    </dependency>  -->
+    
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+      <version>2.52.0</version>
+    </dependency>
     
      <dependency>
     <groupId>org.testng</groupId>
@@ -28,7 +34,7 @@
         
   </dependencies>
   
- <!--  <build>
+  <build>
 		<plugins>
 			<plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -38,10 +44,10 @@
                        <testErrorIgnore>true</testErrorIgnore>
                        <testFailureIgnore>true</testFailureIgnore>
                     <suiteXmlFiles> 
-                           <suiteXmlFile>Testng.xml</suiteXmlFile> 
+                           <suiteXmlFile>testng.xml</suiteXmlFile> 
                     </suiteXmlFiles>
                 </configuration> 
            </plugin>
 		</plugins>
-	</build> -->
+	</build>
 </project>
