@@ -11,6 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -19,14 +20,15 @@ import org.testng.annotations.BeforeSuite;
 public class Generic {
 
 	protected WebDriver driver;
-	protected static Properties config = null;
+	/*protected static Properties config = null;*/
 
 	//@BeforeMethod
 	 @BeforeSuite
 	public void setUp() {
-		initConfig();
-		System.setProperty("webdriver.chrome.driver", config.getProperty("linux_chromeDriverPath"));
-		driver = new ChromeDriver();
+		/*initConfig();*/
+		/*System.setProperty("webdriver.chrome.driver", config.getProperty("linux_chromeDriverPath"));
+		driver = new ChromeDriver();*/
+		driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("https://qa.seeitoi.com/users/sign_in");
 		// LoginPage loginpage = new LoginPage(driver);
@@ -42,7 +44,7 @@ public class Generic {
 	/**
 	 * Inits the config.
 	 */
-	private static void initConfig() {
+	/*private static void initConfig() {
 		if (config == null) {
 			config = new Properties();
 			FileInputStream ip = null;
@@ -61,7 +63,7 @@ public class Generic {
 
 		}
 	}
-
+*/
 	public void verifyText( String actual,String expected) throws InterruptedException {
 		AssertJUnit.assertEquals(actual,expected);
 	}
