@@ -26,7 +26,8 @@ public class Generic {
 	 @BeforeSuite
 	public void setUp() {
 		initConfig();
-		System.setProperty("webdriver.chrome.driver", config.getProperty("linux_chromeDriverPath"));
+		//System.setProperty("webdriver.chrome.driver", config.getProperty("linux_chromeDriverPath"));
+		System.setProperty("webdriver.chrome.driver", config.getProperty("windows_chromeDriverPath"));
 		driver = new ChromeDriver();
 		/*driver = new FirefoxDriver();*/
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
